@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //  customtableviewcell
-//t
+//
 //  Created by Tanay Bhattacharjee on 19/04/18.
 //  Copyright © 2018 none. All rights reserved.
 //
@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var myarry = [String]()
     
     override func viewDidLoad() {
-        myarry = ["Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you", "I don't believe that if you do good, good things will happen", "An Internet meme is a hijacking of the original idea. Instead of mutating by random change and spreading by a form of Darwinian selection, Internet memes are altered deliberately by human creativity. There is no attempt at accuracy of copying, as with genes - and as with memes in their original version :) ", "In all natural disasters through time, man needs to attach meaning to tragedy, no matter how random and inexplicable the event is","Surjava Ghosh"]
+        myarry = ["Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you", "I don't believe that if you do good, good things will happen", "An Internet meme is a hijacking of the original idea. Instead of mutating by random change and spreading by a form of Darwinian selection, Internet memes are altered deliberately by human creativity. There is no attempt at accuracy of copying, as with genes - and as with memes in their original version :) ", "In all natural disasters through time, man needs to attach meaning to tragedy, no matter how random and inexplicable the event is","Tanay Bhattacharjee"]
         mytab.dataSource = nil
         mytab.delegate = self
         super.viewDidLoad()
